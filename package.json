@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "react-native-google-analytics-bridge@5.8.0",
+      "/Users/DAMAGE/Documents/EmploywiseAndroidIosReactnative25aug/ew-mobile-app"
+    ]
+  ],
+  "_from": "react-native-google-analytics-bridge@5.8.0",
+  "_id": "react-native-google-analytics-bridge@5.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-6YUTVLEL9FygkpY7QwfMf3z/kfcAIFV6yazwmFeFmpUrRieLmZVyh46r77qcnoMLPUuSGZwG3GYzyKnmqMNAaA==",
+  "_location": "/react-native-google-analytics-bridge",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-google-analytics-bridge@5.8.0",
+    "name": "react-native-google-analytics-bridge",
+    "escapedName": "react-native-google-analytics-bridge",
+    "rawSpec": "5.8.0",
+    "saveSpec": null,
+    "fetchSpec": "5.8.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-google-analytics-bridge/-/react-native-google-analytics-bridge-5.8.0.tgz",
+  "_spec": "5.8.0",
+  "_where": "/Users/DAMAGE/Documents/EmploywiseAndroidIosReactnative25aug/ew-mobile-app",
+  "author": {
+    "name": "Idéhub AS"
+  },
+  "bugs": {
+    "url": "https://github.com/idehub/react-native-google-analytics-bridge/issues"
+  },
+  "description": "React Native bridge for using native Google Analytics libraries on iOS and Android",
+  "devDependencies": {
+    "dtslint": "^0.2.0"
+  },
+  "homepage": "https://github.com/idehub/react-native-google-analytics-bridge#readme",
+  "keywords": [
+    "react",
+    "native",
+    "google",
+    "analytics",
+    "tracking",
+    "native",
+    "bridge",
+    "events",
+    "screen",
+    "hits",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "react-native-google-analytics-bridge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idehub/react-native-google-analytics-bridge.git"
+  },
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "CoreData.framework",
+        "SystemConfiguration.framework",
+        "libz.tbd",
+        "libsqlite3.0.tbd"
+      ]
+    }
+  },
+  "scripts": {
+    "dtslint": "dtslint types",
+    "test": "npm run dtslint"
+  },
+  "types": "types/index.d.ts",
+  "version": "5.8.0"
+}
